@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+  <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Quick Notes</title>
+    </head>
+
+    <body>
+
+      <header>
+        <h1>Quick Notes</h1>
+        <p>Captures ideas before they disappear</p>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+        <section>
+          <h2>Add a note</h2>
+          <form method="post">
+            <label for="note-input">New note:</label>
+            <input type="text" id="note-input" name="note" placeholder="Type a note..." required>
+            <button type="submit">Add Note</button>
+          </form>
+        </section>
+
+        <section>
+          <h2>Your Notes</h2>
+          <p id="note-count">You have 2 notes.</p>
+          <ul id="notes-list">
+            <li>Note 1: Revise HTML basics.</li>
+            <li>Note 2: Push my code to GitHub</li>
+          </ul>
+        </section>
+
+      </main>
+
+      <footer>
+        <p>&copy; 2026 Quick Notes. Built during the Web Foundations course.</p>
+      </footer>
+
+    </body>
+  </html>
